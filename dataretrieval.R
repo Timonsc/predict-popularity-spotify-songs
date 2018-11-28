@@ -1,8 +1,8 @@
 # create data frame with columns: artistid, artist name, song name and songid. Contains the information about the popular songs
-songsinfo <-read.csv("C:/Users/timon/Documents/Data Science/+Data Valorization/Kaggle Challenge/songsinfo.csv", stringsAsFactors = FALSE)
-data <- read.csv("C:/Users/timon/Documents/Data Science/+Data Valorization/Kaggle Challenge/dataset.csv", stringsAsFactors = FALSE)
-songsinfo <-read.csv("C:/Users/timon/Documents/Data Science/+Data Valorization/Kaggle Challenge/songsinfo.csv", stringsAsFactors = FALSE)
-keys <- spotifyOAuth("spotify-kaggle-data-valorization","668f1b6ddcbb493584154d9e7126ad09","ac55b875163a4d2187b6d9a969d93156")
+songsinfo <-read.csv("../songsinfo.csv", stringsAsFactors = FALSE)
+data <- read.csv("../dataset.csv", stringsAsFactors = FALSE)
+songsinfo <-read.csv("../songsinfo.csv", stringsAsFactors = FALSE)
+keys <- spotifyOAuth("[your-spotify-api-app-name","[key]","[key]")
 
 
 ## In this code we look for the album of the popular songs, then explore the songs of the album and choose the song with the lowest popularity. The song cannot be an intro or interlude.
