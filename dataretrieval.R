@@ -1,7 +1,7 @@
 # create data frame with columns: artistid, artist name, song name and songid. Contains the information about the popular songs
-songsinfo <-read.csv("C:/Users/timon/Documents/Data Science/+Data Valorization/Kaggle Challenge/songsinfo.csv", stringsAsFactors = FALSE)
-data <- read.csv("C:/Users/timon/Documents/Data Science/+Data Valorization/Kaggle Challenge/dataset.csv", stringsAsFactors = FALSE)
-songsinfo <-read.csv("C:/Users/timon/Documents/Data Science/+Data Valorization/Kaggle Challenge/songsinfo.csv", stringsAsFactors = FALSE)
+songsinfo <-read.csv("../songsinfo.csv", stringsAsFactors = FALSE)
+data <- read.csv("../dataset.csv", stringsAsFactors = FALSE)
+songsinfo <-read.csv("../songsinfo.csv", stringsAsFactors = FALSE)
 keys <- spotifyOAuth("your-spotifyapi-app-name","key","key2")
 
 
